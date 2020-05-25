@@ -17,7 +17,7 @@ a{
 .heading{
   border: 1px  solid;
   height:320px;
-  width: 100%;
+  width: fill-available;
   text-align: end;
   padding-top: 210px;
   color: aliceblue;
@@ -129,4 +129,16 @@ div.card:hover .card-img-top{
   transform: scale(1.1);
   transition: 1.1s;
   cursor: pointer;
+}
+@media(max-width:1024px){
+	.card-container{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display:flex;
+  }
+  .heading{
+    text-align: center;
+    padding-top: 20px;
+  }
 }
