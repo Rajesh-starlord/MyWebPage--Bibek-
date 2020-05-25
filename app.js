@@ -27,8 +27,12 @@ app.use(function(req, res, next) {
   next(createError(404));
 });
 
-app.listen(1010,function (req,res) {
-  console.log("server is listening at port:1010");
+let port = process.env.PORT;
+if(port == null || port == ""){
+  port = 1010;
+}
+app.listen(port,function (req,res) {
+  console.log("server has started");
 });
 
 // error handler

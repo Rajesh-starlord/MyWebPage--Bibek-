@@ -4,7 +4,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	   "start":"node app.js"
+    "start": "node app.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -15,5 +15,17 @@
     "jade": "~1.11.0",
     "morgan": "~1.9.1",
     "request": "^2.88.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rajesh-starlord/MyWebPage--Bibek-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rajesh-starlord/MyWebPage--Bibek-/issues"
+  },
+  "homepage": "https://github.com/Rajesh-starlord/MyWebPage--Bibek-#readme",
+  "description": ""
 }
