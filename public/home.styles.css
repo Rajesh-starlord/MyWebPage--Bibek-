@@ -1,0 +1,132 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Lato', sans-serif;
+}
+a{
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  font-size: 1.3rem;
+}
+.home{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color:red;
+}
+.heading{
+  border: 1px  solid;
+  height:320px;
+  width: 100%;
+  text-align: end;
+  padding-top: 210px;
+  color: aliceblue;
+  border: none;
+}
+.main{
+  height: 450px;
+  background-image: url('https://media.gettyimages.com/photos/marine-commandos-of-the-indian-navy-take-part-in-a-simulated-hostage-picture-id1186182490?s=2048x2048');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.intro-section{
+  height: -webkit-fill-available;
+  margin-top: 50px;
+}
+.profile{
+  height:200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: auto;
+  background-size: cover;
+  background-position: center;
+  background-image: url('https://ae01.alicdn.com/kf/HTB1K8E9akL0gK0jSZFxq6xWHVXaw/High-Quality-Men-Suirts-Military-Slim-Fit-Suit-Navy-uniform-Fashion-Brand-Stage-performance-Captain-clothing.jpg');
+}
+.intro{
+  margin:auto;
+  text-align: center;
+  width: 35%;
+}
+.contents{
+  overflow: auto;
+  height: inherit;
+  width:100%;
+  margin-top: 10px;
+}
+.img-slide{
+  width: 100%;
+  height: 320px;
+}
+.heading-container{
+  height: 530px;
+  display: flex;
+}
+sidenav{
+  display: block;
+}
+.sidenav{
+  display: block;
+  height: -webkit-fill-available;
+  background-color: #f8f9fa!important;
+}
+.profile-img{
+  height:150px;
+  width:150px;
+  border-radius: 50%;
+  margin-top: 10px;
+  background-position: center;
+  background-size: cover;
+}
+.Profile{
+  text-align: center!important;
+  display: flex;
+  width: min-content;
+  align-items: center;
+  flex-direction: column;
+}
+.side-menu-opt{
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+}
+li{
+  list-style: none;
+}
+div.card{
+  margin-top: 15px;
+  width: 25%;
+  border-radius: 0px 0px 60px 0px;
+  -webkit-box-shadow: 1px 5px 19px -3px rgba(189,183,189,1);
+  overflow: hidden;
+}
+.footer{
+  height:300px;
+  width: auto;
+  background-color: black;
+  text-align: center;
+  color: #ffff;
+  margin-top: 50px;
+  padding-top: 100px;
+}
+div.container.end-text{
+  text-align: center;
+  border-top: 2px solid grey;
+  margin-top: 30px;
+}
+#Contact i{
+  margin-right: 80px;
+}
+#Contact i:last-child{
+  margin-right: 0px;
+}
+.card-container{
+  display: flex;
+  justify-content: space-around;
+}
+div.card:hover .card-img-top{
+  transform: scale(1.1);
+  transition: 1.1s;
+  cursor: pointer;
+}
